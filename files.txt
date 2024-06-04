@@ -1,0 +1,9 @@
+merkle_pkg.vhd : a package to define necessary types
+merkle_node.vhd : description of a node
+merkle_pll.vhd : a pll needed for the output
+merkle_ps.vhd and merkle_sp.vhd : the component uses parallel data when input/output have to be serial
+merkle_tree.vhd : descrption of the tree (all the smart computing is in that file)
+merkle_top.vhd : a top-level to make the whole system work
+These files are in Merkle.zip.
+
+The Keccak hash function hardware description is in mid_range_core.zip. All the files have to be compiled for the system to be operating.
